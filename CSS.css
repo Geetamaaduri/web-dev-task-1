@@ -1,0 +1,54 @@
+ h1 {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+      }
+body {
+  background-image: url('https://img.freepik.com/premium-photo/abstract-background-design-hd-olive-green-color_851755-37830.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  text-align: center;
+  padding: 40px;
+}
+
+.overlay-card {
+  background-color: rgb(128, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: 100px auto;
+  color: pink;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background: #ff6f61;
+  color: blue;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e65c50;
+}
+
+a {
+  color: #8ec5fc;
+  font-weight: bold;
+  text-decoration: none;
+}
